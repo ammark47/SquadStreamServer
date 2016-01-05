@@ -4,7 +4,7 @@ var helmet = require('helmet');
 var app = express();
 
 app.use(helmet());
-var staticPath = path.resolve(__dirname, '../build');
+var staticPath = path.resolve(__dirname + '/build');
 app.use(express.static(staticPath));
 
 var server_port = process.env.PORT || CONFIG.port;
