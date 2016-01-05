@@ -2,10 +2,10 @@
   "name": "squadstream",
   "version": "1.0.0",
   "description": "stream realtime news for nba team",
-  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ammark47/SquadStreamServer.git"
