@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ammark47/SquadStreamServer/issues"
   },
-  "homepage": "https://github.com/ammark47/SquadStreamServer#readme"
+  "homepage": "https://github.com/ammark47/SquadStreamServer#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
 }
