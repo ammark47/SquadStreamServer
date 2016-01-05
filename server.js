@@ -1,13 +1,20 @@
 var path = require('path');
 var express = require('express');
-
+var helmet = require('helmet');
 var app = express();
 
+app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+app.use(helmet());
 var staticPath = path.resolve(__dirname, '/build');
 app.use(express.static(staticPath));
 
 app.get("/", (req, res) => {
- res.sendFile(__dirname + "/index.html");
+
+ res.sendFile(__dirname + "/build/index.html");
 });
 
 app.listen(3000, function() {

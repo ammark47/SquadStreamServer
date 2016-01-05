@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ammark47/SquadStreamServer#readme",
   "dependencies": {
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "helmet": "^1.0.1"
   }
 }
