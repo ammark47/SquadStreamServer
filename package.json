@@ -6,10 +6,6 @@
     "start": "node server.js"
   },
   "main": "server.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ammark47/SquadStreamServer.git"
-  },
   "author": "Ammar Karim",
   "license": "ISC",
   "bugs": {
