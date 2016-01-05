@@ -1,0 +1,19 @@
+{
+  "name": "squadstream",
+  "version": "1.0.0",
+  "description": "stream realtime news for nba team",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ammark47/SquadStreamServer.git"
+  },
+  "author": "Ammar Karim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ammark47/SquadStreamServer/issues"
+  },
+  "homepage": "https://github.com/ammark47/SquadStreamServer#readme"
+}
