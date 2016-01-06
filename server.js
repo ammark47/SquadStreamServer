@@ -1,7 +1,10 @@
 var path = require('path');
 var express = require('express');
 var helmet = require('helmet');
+var ua = require('universal-analytics');
 var app = express();
+
+var visitor = ua('UA-XXXX-XX');
 
 app.use(helmet());
 var staticPath = path.resolve(__dirname + '/build');
