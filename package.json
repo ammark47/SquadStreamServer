@@ -10,6 +10,9 @@
     "stats": "webpack --profile --json > stats.json",
     "build": "webpack"
   },
+  "engines": {
+    "node": "8.0.0"
+  },
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^6.2.3",
